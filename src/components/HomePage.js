@@ -15,17 +15,19 @@ const Home = () => {
   return (
     <div className="bg-gray-100">
       <nav className="flex items-center justify-between bg-cover bg-center bg-no-repeat bg-opacity-50 p-4 w-full mt-4">
-        <img src="/images/logo11 png.png" alt="Background Image" className="w-60 h-20 ml-44" />
+        <img src="/images/logo11 png.png" alt="Background Image" className="w-40 h-20 ml-40" />
         <div className="flex items-center">
-          <a href="#" className="text-black font-semibold mx-5 hover:text-blue-700 text-xl">About</a>
-          <a href="#" className="text-black font-semibold mx-5 hover:text-blue-700 text-xl">Services</a>
-          <a href="#" className="text-black font-semibold mx-5 hover:text-blue-700 text-xl">Sector</a>
-          <a href="#" className="text-black font-semibold mx-5 hover:text-blue-700 text-xl">Structures</a>
-          <a href="#" className="text-black font-semibold mx-5 hover:text-blue-700 text-xl">Insights</a>
-          <a href="#" className="text-black font-semibold mx-5 hover:text-blue-700 text-xl">+92316-7168682</a>
-          <button className="bg-[#158f9e] text-white font-semibold rounded-full px-4 py-2 mx-5 mb-2 w-52 h-16 text-xl">Contact Us</button>
+          <a href="#" className="text-black mx-4 hover:text-blue-700 text-lg">About</a>
+          <a href="#" className="text-black mx-4 hover:text-blue-700 text-lg">Services</a>
+          <a href="#" className="text-black mx-4 hover:text-blue-700 text-lg">Sector</a>
+          <a href="#" className="text-black mx-4 hover:text-blue-700 text-lg">Structures</a>
+          <a href="#" className="text-black mx-4 hover:text-blue-700 text-lg">Insights</a>
+          <a href="#" className="text-black mx-4 hover:text-blue-700 text-lg">+92316-7168682</a>
+          <button className="bg-[#158f9e] text-white justify-center rounded-full px-4 py-1 mx-4 mb-2 w-36 h-10 text-lg">Contact Us</button>
         </div>
       </nav>
+
+
 
       {/* Backcover Image */}
 
@@ -441,10 +443,10 @@ const Home = () => {
                 ________________________________________________________________________________________________________________________________________________________________________________________________
               </div>
               <p className="pt-2 pl-4 text-xs w-full ml-20">
-              Copyright © 2022. Designed by aethonint.digital
+                Copyright © 2022. Designed by aethonint.digital
               </p>
             </div>
-            <div className="flex justify-between text-right  text-white"style={{marginLeft:'850px'}}>
+            <div className="flex justify-between text-right  text-white" style={{ marginLeft: '850px' }}>
               <div className="flex justify-end ml-0 px-24">
                 <p className="mr-8">Term</p>
                 <p className="mr-8">Privacy</p>
